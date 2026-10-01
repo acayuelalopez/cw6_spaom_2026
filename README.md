@@ -1,6 +1,7 @@
 # SPAOM 2026 Community Workshop 6
 
 ## QuPath: A Great Tool for Spatial Omics Image and Data Analysis
+### Part I · Multiplexed immunofluorescence Image Analysis​
 
 This repository contains the materials for **SPAOM 2026 Community Workshop 6**, a hands-on introduction to multiplexed fluorescence image analysis in QuPath.
 
@@ -13,7 +14,7 @@ The practical exercise covers:
 - supervised object classification;
 - threshold-based and supervised tumor detection;
 - distance-to-tumor and nearest-neighbor spatial analysis;
-- visualization of spatial measurements with histograms and scatter plots.
+- Extra: visualization of spatial measurements with histograms and scatter plots.
 
 ## Repository structure
 
