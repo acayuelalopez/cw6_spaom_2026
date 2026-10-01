@@ -1,0 +1,28 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Office lock files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# QuPath/Java logs and temporary output
+*.log
+hs_err_pid*
+
+# Local Python environments used by Cellpose
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Uncomment the next line if the OME-TIFF is distributed externally rather than with Git LFS
+# spaom/images/*.ome.tiff
