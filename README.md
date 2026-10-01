@@ -86,7 +86,6 @@ If the image is downloaded separately:
 
 1. Download `melanoma_cropped.ome.tiff` from:
 
-   **[INSERT DATA DOWNLOAD URL]**
 
 2. Copy the image into:
 
@@ -237,26 +236,6 @@ spaom/docs/SPAOM2026_QuPath_Practical_Guide.docx
 ```
 
 Replace the placeholder document with the final workshop guide before publication.
-
-## Citation and reuse
-
-If you reuse or adapt the workshop materials, please cite:
-
-> **[INSERT WORKSHOP CITATION, DOI OR ZENODO RECORD]**
-
-QuPath and Cellpose should also be cited according to the recommendations of their respective projects.
-
-## License
-
-The license for the workshop guide, scripts, classifiers, annotations, and image data must be confirmed before public release.
-
-Suggested approach:
-
-- documentation and training materials: **CC BY 4.0**;
-- original workshop scripts: **MIT License**;
-- image data: use the license approved by the data owner and institution.
-
-See `LICENSE.md` for placeholders that must be completed before publication.
 
 ## Contact
 
