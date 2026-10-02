@@ -19,7 +19,7 @@ The practical exercise covers:
 ## Repository structure
 
 ```text
-spaom/
+cw6_spaom_2026/
 ├── cw6_qupath/
 │   ├── classifiers/
 │   │   └── .gitkeep
@@ -48,7 +48,7 @@ Install the following software before the workshop:
 Participants who cannot run Cellpose locally can use the pre-generated detections provided in:
 
 ```text
-spaom/cw6_qupath/geojson_masks/melanoma_cropped.geojson
+cw6_spaom_2026/cw6_qupath/geojson_masks/melanoma_cropped.geojson
 ```
 
 ## Download the workshop materials
@@ -77,7 +77,7 @@ Replace `ORGANIZATION/REPOSITORY` with the final repository address.
 The workshop uses:
 
 ```text
-spaom/images/melanoma_cropped.ome.tiff
+cw6_spaom_2026/images/melanoma_cropped.ome.tiff
 ```
 
 Because OME-TIFF images can be very large, the image may be distributed using Git LFS or through an external institutional repository.
@@ -90,13 +90,13 @@ If the image is downloaded separately:
 2. Copy the image into:
 
 ```text
-spaom/images/
+cw6_spaom_2026/images/
 ```
 
 3. Confirm that the final path is:
 
 ```text
-spaom/images/melanoma_cropped.ome.tiff
+cw6_spaom_2026/images/melanoma_cropped.ome.tiff
 ```
 
 4. Do not rename the image before opening the QuPath project.
@@ -108,7 +108,7 @@ spaom/images/melanoma_cropped.ome.tiff
 3. Select:
 
 ```text
-spaom/cw6_qupath/project.qpproj
+cw6_spaom_2026/cw6_qupath/project.qpproj
 ```
 
 Alternatively, drag `project.qpproj` onto the QuPath window.
@@ -122,7 +122,7 @@ The project may contain an image path created on another computer. If the image 
 3. Select:
 
 ```text
-spaom/images/melanoma_cropped.ome.tiff
+cw6_spaom_2026/images/melanoma_cropped.ome.tiff
 ```
 
 4. Confirm that the image opens and that its image type is set to **Fluorescence**.
@@ -132,7 +132,7 @@ spaom/images/melanoma_cropped.ome.tiff
 The segmentation script is located at:
 
 ```text
-spaom/cw6_qupath/scripts/cellpose_segmentation.groovy
+cw6_spaom_2026/cw6_qupath/scripts/cellpose_segmentation.groovy
 ```
 
 To run the script:
@@ -152,7 +152,7 @@ To run the script:
 If Cellpose cannot be installed or run during the workshop, use the pre-generated segmentation:
 
 ```text
-spaom/cw6_qupath/geojson_masks/melanoma_cropped.geojson
+cw6_spaom_2026/cw6_qupath/geojson_masks/melanoma_cropped.geojson
 ```
 
 Importing the detections is straightforward:
@@ -168,7 +168,7 @@ Importing the detections is straightforward:
 Saved QuPath classifiers are stored in:
 
 ```text
-spaom/cw6_qupath/classifiers/
+cw6_spaom_2026/cw6_qupath/classifiers/
 ```
 
 This folder may contain single-measurement, composite, object, or pixel classifiers created during the practical exercise. Classifier availability may depend on the stage of the workshop and the distributed project version.
@@ -178,7 +178,7 @@ This folder may contain single-measurement, composite, object, or pixel classifi
 Image-specific QuPath analysis data are stored in:
 
 ```text
-spaom/cw6_qupath/data/
+cw6_spaom_2026/cw6_qupath/data/
 ```
 
 Do not manually rename, reorganize, or delete the files in this folder. QuPath manages these resources as part of the project.
@@ -204,7 +204,7 @@ Do not manually rename, reorganize, or delete the files in this folder. QuPath m
 Update the image URI and point QuPath to:
 
 ```text
-spaom/images/melanoma_cropped.ome.tiff
+cw6_spaom_2026/images/melanoma_cropped.ome.tiff
 ```
 
 ### Cellpose does not run
@@ -232,10 +232,9 @@ Temporarily hide cell detections, cell-classification overlays, and unrelated tr
 The practical guide is expected at:
 
 ```text
-spaom/docs/SPAOM2026_QuPath_Practical_Guide.docx
+cw6_spaom_2026/docs/SPAOM2026_QuPath_Practical_Guide.docx
 ```
 
-Replace the placeholder document with the final workshop guide before publication.
 
 ## Contact
 
